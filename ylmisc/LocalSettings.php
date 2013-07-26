@@ -59,7 +59,7 @@ $wgDBuser = "root";
 $wgDBpassword = "passw1rd";
 
 # MySQL specific settings
-$wgDBprefix = "";
+$wgDBprefix = "wiki";
 
 # MySQL table options to use during installation or update
 $wgDBTableOptions = "ENGINE=InnoDB, DEFAULT CHARSET=utf8";
@@ -99,11 +99,11 @@ $wgShellLocale = "en_US.utf8";
 # Site language code, should be one of the list in ./languages/Names.php
 $wgLanguageCode = "zh-cn";
 
-$wgSecretKey = "6612b4aea5086f9234204b8b1890ea1251552999d1f19124534626851ab7cd92";
+$wgSecretKey = "14e21531efc467fc125ca8d3ef78f818f5ed9b5f54142260ae73d5be76566e3e";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "3643cb4c9b7c4195";
+$wgUpgradeKey = "f8ba3c31a2be7abc";
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'standard', 'nostalgia', 'cologneblue', 'monobook', 'vector':
